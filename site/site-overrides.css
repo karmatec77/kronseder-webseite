@@ -1,0 +1,20 @@
+.site-logo{display:block;width:min(190px,48vw);height:72px;object-fit:contain;object-position:left center}
+.hero-title{font-size:clamp(3.5rem,7.2vw,6.8rem)}
+.hero-photo{background-image:url('assets/hof-web.jpg')}
+.promise-section{grid-template-columns:1fr 1fr;max-width:1240px;margin:70px auto 40px;padding:clamp(70px,8vw,115px) clamp(24px,6vw,80px);color:#1e241f;background:linear-gradient(90deg,rgba(243,238,227,.96) 0%,rgba(243,238,227,.74) 52%,rgba(243,238,227,.24) 100%),url('assets/wurst-handwerk-web.jpg') center/cover no-repeat}
+.hours-note{grid-column:1/-1;margin:18px 0 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.78)}
+.markets-layout{grid-template-columns:.8fr 1.2fr}
+.menu{color:var(--green);font-family:inherit}
+.events{background:var(--green);display:grid;grid-template-columns:minmax(0,.85fr) minmax(460px,1.15fr);gap:64px}
+.events-gallery{position:relative;min-height:520px}
+.events-gallery img{position:absolute;display:block;object-fit:cover;box-shadow:0 20px 45px rgba(10,15,11,.28)}
+.events-gallery .hall-photo{inset:0 70px 70px 0;width:calc(100% - 70px);height:calc(100% - 70px)}
+.events-gallery .detail-photo{right:0;bottom:0;width:48%;height:45%;border:10px solid var(--green)}
+.market-stand-photo{display:block;width:100%;margin-top:34px;aspect-ratio:4/3;object-fit:cover;filter:saturate(.98);box-shadow:0 18px 40px rgba(30,36,31,.14)}
+.product-image img{object-position:center 62%;filter:saturate(.92) contrast(1.04)}
+.product-image .product-quote{position:absolute;top:0;left:0;right:auto;bottom:auto;margin:0;background:var(--rust);color:white;padding:18px 24px;font:italic 22px/1.2 Georgia;box-shadow:0 14px 30px rgba(30,36,31,.16)}
+.product-image .product-tagline{margin:26px 0 0;padding-left:22px;border-left:3px solid var(--rust);font:italic 22px/1.4 Georgia;color:var(--green)}
+footer>div{display:flex;gap:20px;flex-wrap:wrap}
+footer>div a{color:white;font-size:13px;font-weight:700;text-underline-offset:4px}
+@media(max-width:960px){.intro,.markets{grid-template-columns:1fr!important}.intro-copy,.market-cards{grid-column:1}.events{grid-template-columns:1fr;gap:48px}.events-gallery{min-height:470px}.market-stand-photo{max-width:620px}}
+@media(max-width:600px){footer p{display:block;font-size:18px;line-height:1.4;max-width:320px}.events-gallery{min-height:380px}.events-gallery .hall-photo{inset:0 36px 54px 0;width:calc(100% - 36px);height:calc(100% - 54px)}.events-gallery .detail-photo{width:56%;height:42%;border-width:7px}.product-image .product-quote{padding:15px 20px;font-size:19px}.product-image .product-tagline{margin-top:22px;font-size:19px}}
