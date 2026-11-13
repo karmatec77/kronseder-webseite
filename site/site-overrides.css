@@ -1,7 +1,7 @@
 .site-logo{display:block;width:min(190px,48vw);height:72px;object-fit:contain;object-position:left center}
 .hero-title{font-size:clamp(3.5rem,7.2vw,6.8rem)}
-.hero-photo{background-image:url('assets/hof-web.jpg')}
-.promise-section{grid-template-columns:1fr 1fr;max-width:1240px;margin:70px auto 40px;padding:clamp(70px,8vw,115px) clamp(24px,6vw,80px);color:#1e241f;background:linear-gradient(90deg,rgba(243,238,227,.96) 0%,rgba(243,238,227,.74) 52%,rgba(243,238,227,.24) 100%),url('assets/wurst-handwerk-web.jpg') center/cover no-repeat}
+.hero-photo{background-image:url('assets/hof-web.webp')}
+.promise-section{grid-template-columns:1fr 1fr;max-width:1240px;margin:70px auto 40px;padding:clamp(70px,8vw,115px) clamp(24px,6vw,80px);color:#1e241f;background:linear-gradient(90deg,rgba(243,238,227,.96) 0%,rgba(243,238,227,.74) 52%,rgba(243,238,227,.24) 100%),url('assets/wurst-handwerk-web.webp') center/cover no-repeat}
 .hours-note{grid-column:1/-1;margin:18px 0 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.78)}
 .markets-layout{grid-template-columns:.8fr 1.2fr}
 .menu{color:var(--green);font-family:inherit}
@@ -18,3 +18,10 @@ footer>div{display:flex;gap:20px;flex-wrap:wrap}
 footer>div a{color:white;font-size:13px;font-weight:700;text-underline-offset:4px}
 @media(max-width:960px){.intro,.markets{grid-template-columns:1fr!important}.intro-copy,.market-cards{grid-column:1}.events{grid-template-columns:1fr;gap:48px}.events-gallery{min-height:470px}.market-stand-photo{max-width:620px}}
 @media(max-width:600px){footer p{display:block;font-size:18px;line-height:1.4;max-width:320px}.events-gallery{min-height:380px}.events-gallery .hall-photo{inset:0 36px 54px 0;width:calc(100% - 36px);height:calc(100% - 54px)}.events-gallery .detail-photo{width:56%;height:42%;border-width:7px}.product-image .product-quote{padding:15px 20px;font-size:19px}.product-image .product-tagline{margin-top:22px;font-size:19px}}
+
+/* V59_01: Kontrast, Tastaturfokus, reduzierte Bewegung */
+:root{--rust:#b04327}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+.site-header a:focus-visible,.site-header button:focus-visible,.contact a:focus-visible,.markets a:focus-visible,.special a:focus-visible,.products a:focus-visible{outline-color:var(--green)}
+.button:focus-visible{outline-color:#1e241f;outline-offset:3px;box-shadow:0 0 0 3px #fff}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{animation:none}*{transition:none!important}}
