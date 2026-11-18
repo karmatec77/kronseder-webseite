@@ -1,3 +1,11 @@
 .DS_Store
 __MACOSX/
 *.zip
+
+# Zugangsdaten nie ins Repository
+.env
+.env.*
+sftp-config.json
+.vscode/sftp.json
+*.pem
+*.key
