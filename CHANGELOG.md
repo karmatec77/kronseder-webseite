@@ -8,6 +8,7 @@ Hochgeladen wird nur der Inhalt von `site/` (mit `.htaccess`).
 
 ## Unveröffentlicht
 - **Impressum:** Umsatzsteuer-Identifikationsnummer DE177542966 (§ 27 a UStG) ergänzt (18.11.2026).
+- **Impressum:** Datum „Stand: 18.11.2026“ am Seitenende ergänzt.
 
 ## V59_01 – 13.11.2026 (Basis: V59_00)
 - **Bilder:** alle Fotos und Logos als WebP, Seitenbilder gesamt ca. 3,4 MB → 0,7 MB; `width`/`height` bei allen Bildern; `hof.jpg` und alte JPG/PNG entfernt; neu `assets/og-image.jpg` (1200 × 630).
@@ -23,6 +24,6 @@ Hochgeladen wird nur der Inhalt von `site/` (mit `.htaccess`).
 - (Ausgangsstand „Archiv.zip“ nur als Beschreibung, nicht in Git.)
 
 ## Offen
-- Impressum: Kammer, Berufsbezeichnung, Streitbeilegung, Stand.
+- Impressum: Kammer, Berufsbezeichnung, Streitbeilegung.
 - Inhalte: Gaststuben-Zeiten, „EM-Produkte“, Datum bei „Aktuell“, Samstag (Markt Vilsbiburg 07:00–12:00 und Hofladen 07:30–12:00).
 - Datenschutzerklärung: Mailanbieter ergänzen.
