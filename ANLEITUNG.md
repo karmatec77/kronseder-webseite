@@ -6,6 +6,7 @@ genau dieser Inhalt wird auf den Webspace (IONOS) hochgeladen.
 ## Ablauf bei jeder Änderung
 1. Dateien in `site/` ändern.
 2. In `CHANGELOG.md` unter „Unveröffentlicht“ kurz notieren, was geändert wurde.
+   - Bei Änderungen an `impressum.html` das Datum „Stand: TT.MM.JJJJ“ am Seitenende auf das aktuelle Datum setzen.
 3. Speichern als Commit (Terminal im Ordner `Webseite`):
    ```
    git add -A
