@@ -8,7 +8,7 @@ Hochgeladen wird nur der Inhalt von `site/` (mit `.htaccess`).
 
 ## Unveröffentlicht
 - **Impressum:** Umsatzsteuer-Identifikationsnummer DE177542966 (§ 27 a UStG) ergänzt (18.11.2026).
-- **Impressum:** Datum „Stand: 18.11.2026“ am Seitenende ergänzt.
+- **Impressum und Datenschutz:** Stand-Datum einheitlich wie bei Purainer am Seitenende als `<p class="legal-updated">Stand: TT. Monat JJJJ</p>` (grau, kleiner, mit Abstand; Stil in `legal.css`). Impressum: 18. November 2026; Datenschutz: 13. November 2026 (letzte Änderung), bisheriges „Stand: November 2026“ oben entfernt.
 
 ## V59_01 – 13.11.2026 (Basis: V59_00)
 - **Bilder:** alle Fotos und Logos als WebP, Seitenbilder gesamt ca. 3,4 MB → 0,7 MB; `width`/`height` bei allen Bildern; `hof.jpg` und alte JPG/PNG entfernt; neu `assets/og-image.jpg` (1200 × 630).
